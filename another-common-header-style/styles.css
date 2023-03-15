@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+}
+header {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.left {
+    display: inline-flex;
+    color: purple;
+    margin: 10px;
+    font-size: 25px;
+    padding: 16px;
+    
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.right{
+    display: inline-flex;
+    color: white;
+    background-color: purple;
+    border-radius: 3px;
+    padding: 16px;
+    
+    
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 120%;
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+
+}

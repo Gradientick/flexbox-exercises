@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.main {
+    width: 70vh;
+    height: 40vh;
+    background-color: white;
+    border: 5px solid red ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.leftsection {
+    width: 20px;
+    height: 200px;
+    flex:1
+    border: 2px solid green;
+}
